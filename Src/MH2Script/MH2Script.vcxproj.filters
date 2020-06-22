@@ -1,0 +1,2202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Classes\AnnihilatorBolt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ArtilleryRockBit.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Ash.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\asscoreboard.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\AssertMoverFix.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\AzureLight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BalloonAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\balloonGun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BattleCorona.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BattleEffect.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BattleOv.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BattleSuit.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Bazooka.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BazookaAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBalloonBomb.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBelch.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBioAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBioExplo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBioGel.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBioGlob.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBioGlobNS.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\bBioRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBioRIfleMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBioSplash.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBlade.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BBulletBox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BChunk.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BComboRing.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BDAmmo1.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BDAmmo2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BDAmmo3.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BDAmmo4.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BDAmmo5.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BEightball.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BEightballMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BEnforcer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BEnforcerMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BersChainSaw.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BerserkCoronaH.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BerserkCoronaV.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BerserkEffect.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BFireBelch.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BFlakAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BFlakCannon.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BFlakcannonMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BFlakShell.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BFlameBelch.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BGalticAlt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BGalticProj.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BGrenade.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BHammer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BHammerMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BHealthPack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigFace.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigHellScorch.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigShock.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigShockShade.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigShockShadeIa.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigShockShadeIb.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigShockwave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigShockwaveII.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BigSplosionMakers.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BioAmmoB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Bird2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BiterFish2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BiterFishSchool2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BladeHopperB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BloodNotify.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BlueBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BlueShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BlueSpriteBallExplosion.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BMiniammo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Bminigun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BMinigunMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BMiniWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BoltFlare.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\boltskorchlong.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BoltTrace.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BomberTentacle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BotBurguer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BPakMessage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BPakSpecialTimer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BPakWeaponMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BPAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BPulseGun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BPulseMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRazor2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRazor2Alt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRedLaserSplosionMaker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRI.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRingEx.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRipper.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRipperMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRocket.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BRocketPack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BSaw.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BSawMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BSeekingRocket.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\bShieldbelt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BShock.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BShockCore.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BShockMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BShockProj.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BShockProjAlt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BSniperMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BSniperRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BuildLog.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BulletBoxB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BWaniHanabiProj.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\BWarheadMutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CanisterCollisionProxy.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CannedPentagrams.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CBalloonBomb.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CBLoopVolumeThing.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ChatContainer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ClusterfuckerRocket.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ClusternukeWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ClusterPack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CMonsterHUD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ContactBlob.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\coopbase.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\coopcw.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\coopgame2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\coopHUD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\coopwindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CoronaEffect.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CoronaMaker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CoronaNukeB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CoronaNukeC.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CoronaNukeD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CStats.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Customs.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CyanBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\CyanShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DAmmo42.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DAmmo42a.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DAmmo42aMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DAmmo42MP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DecalNotify.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DecoratedShockRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DeemerLaunchMsg.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Defenser.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Delay.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DemonBolt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DemonBoltWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DemonComboRing.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DemonExplo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DemonRingExplosion4.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DemonSpark.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DJ_InventoryItem.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\dokuo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\dokuoAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\dokuoLauncher.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DokuoShell.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\dokuoSW.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DOMPoint.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DoubleElecFX.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DoubleSCoronaV.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DoubleSOverA.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DoubleSOverB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DoubleSpeed.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\DumbInv.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EClipB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EK_Grenade.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EKGrenade2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EKGrenade3.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Embellished.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EnergyAR.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EnhancedReSpawnX.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EverythingNotify.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExBloodSpurt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExBruteProjectile.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExCreatureCarcass.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExCreatureChunks.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExFly.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExFlyCarcass.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExMercRocket.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExPlasmaSphere.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExSpecialEvent.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUArmor.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUBouncyProjectiles.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUBox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUBrute.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUDAmmo5.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUEARAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUEnergyBurst.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUFreezerMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUGasbagBelch.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUGenericEffects.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUGenericProjectiles.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUHellGunMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUHelms.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUHyperFlakkerMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUKeg.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUModels.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUOldSpriteBallExplosion.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUScriptedPawn.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUShieldBelt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUShitgunMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUShockExplo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUSilentBallExplosion.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUSpriteBallChild.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUSpriteBallExplosion.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUStaticFuncs.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUSuperClusterfucker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUSuperClusterfuckerRocket.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUSuperEAR.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUSuperFS2Flak.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUThighpads.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\EXUUT_Jumpboots.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ExWarlordRocket.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FemaleOne.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FemaleOneBot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FemaleTwo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FemaleTwoBot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FFlame1.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FGas.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FinalRedShock.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FixedTestActor.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FL_Beam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FL_BeamLarge.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FL_ClientWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FL_Flashlight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FL_FramedWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FL_ModMenuItem.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FL_Mutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FL_Searchlight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FlakAmmoB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FlakCollisionProxy.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\flamer1.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FlamerGas.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FlameTBTrail.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FreezeBlast.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FreezeBlast2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FreezeBlast2MP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FreezeBlastTwo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Freezer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FrostArmor.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FrozenFire.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FS2Flak.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FuckerBoots.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\FuckerBrute.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GalticAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GalticLauncher.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GBalloonBomb.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GoldenDarkOver.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GoldenOver.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GoldShine.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GrassyTriple.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GreenBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GreenBloodSplat.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GreenLight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GreenShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GreenUFO.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GreenUTBloodPool2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GreenXNHAM.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GrenadeGun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GrenadePack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GuidedDokuoShell.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\GuidedWarMissile.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HeavyShieldBelt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellBlastEffects.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Hellblastproj.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellGun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellMark.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellShock_BSphere.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellShock_ERingy.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellShock_FSphere.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Hellshock_glyph.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Hellshock_HBall.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellShock_PGlow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Hellshock_Pringy.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Hellshock_Pwave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellShock_RWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellShock_SRingy.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellShock_SWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HellShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Helmet.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Hollow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HomingMissile01.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HomingMissile02.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HomingMissile03.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HomingMissile04.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HuntMessage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HyperCells.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HyperFlakker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HyperGrenade.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\HyperGrenadeBomblet.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\IceBlast.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\IceBlast2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\IceBlast2MP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\IceBlastTwo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\IceShock.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Illhaven.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\invasion.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\InvisCoronaH.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\InvisCoronaHMini.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\InvisCoronaV.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\InvisEffect.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\IP2CountryModule.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ItsBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\JPadEmitGrid.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\JPadEmitPrtc.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\JumpBootsSOver.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\KeyBinderOpener.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\LaserEnergizerUpgrade.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Lazyweapon.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\LightChargerOn.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\LimeLight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\LimeLight2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\LimeLightBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MagentaBoomer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MaleOne.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MaleOneBot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MaleThree.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MaleThreeBot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MaleTwo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MaleTwoBot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MBurner.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2_C_V3Message.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2Armor2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2Base.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2CHSpectator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2ClusterFucker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2Dancer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2Dancer1.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2EnhancedReSpawn.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2HeadShotMessage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2HeadShotMessage2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2HeadShotMessage3.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2HeadShotMessage4.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2HeadShotMessage5.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2HealthPack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2HealthVial.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2MedBox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2Particles.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2ScoreBoard1.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2ServerInfo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2ShieldBelt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2ShieldBeltEffect.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2Spectator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2Table1.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MH2Table2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MHFirstBloodMessage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\mhflare.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MHReplicationInfo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MicroFuckerBrute.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MiniammoB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MiniBSBE.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MiniFuckerBrute.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MiniIceBlastlet.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MiniIceBlastletTwo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MiniLord.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MiniShitball.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MissileGun01.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MissileGun02.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MissileGun03.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MissileGun04.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Monster2BotConfig.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Monster2CreditsCW.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Monster2CreditsWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Monster2HuntRules.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Monster2MenuItem.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Monster2Settings.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Monster2Shadow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MonsterBasePlus.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MonsterBrowserWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MonsterCriticalStringPlus.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MonsterEnd2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MonsterHunt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MonsterHunt2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MonsterReplicationInfoTwo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyAdminConfig.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyAdminConsole.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyBigEditBox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyBigEditControl.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyChatLog.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyCheckbox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyClientDialog.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyComboControl.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyControlFrame.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyDialogWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyDynamicTextArea.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyEditBox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyEditControl.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyExitSmallButton.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyGeneralHUDSettings.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyHSliderControl.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyItemListBox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyItemListItem.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyLabelControl.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyLanguageClass.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyLanguageDeutsch.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyLanguageEnglish.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyLanguageEspanol.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyLanguageSvenska.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyMainPage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyMapListFrameCW.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyMutatorConfigClient.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyMutatorConfigWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyPageControl.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyPageControlPage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyPlayerListBox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyPlayerListItem.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyPMLog.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyRadarClientSettings.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MySecondEditBox.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MySecondEditControl.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MySmallButton.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyTab.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyTabControlLeftButton.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyTabControlRightButton.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyTabControlTabArea.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\MyThemeClass.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NaliRabbitTwo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NaliTwo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewOLEightball.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewOLRazorjack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewOLRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewOLStinger.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewRazorAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewRifleAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewRocketCan.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewStingerAmmo.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewUIweapons.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NewVial.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NSMH_AGAmpMessage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NSMH_AGKillingSpreeMessage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NSMH_AGMultiKillMessage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NSMH_AGRandomHealthMsg.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NSMH_AGRandomRedeemerMsg.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NSMonsterEnd.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NsWayPoint.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NuclearExplosionI.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NuclearExplosionII.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NuclearExplSets.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NuclearRingUp.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NuclearRingUpII.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NuclearShockI.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NuclearShockII.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NuclearShockIII.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeBoulder.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeBurner.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeColumn.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeColumnThin.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeDust.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeDustRotA.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeDustRotB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeDustRotC.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeDustRotCol.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeMissileA.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeMissileD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeMissileE.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeMush.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeMushSmk.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeRisingCorona.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeStdCorona.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\NukeTrail.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ol1337krallBolt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OlBloodBurst.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olBloodSplat.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olBloodSpurt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olBruteProjectile.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olCreatureCarcass.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olCreatureChunks.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldboardNotify.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OlderClusterfucker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldhudNotify.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldSkoolAboutClient.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolashud.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolbaseHUD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolconfigclient.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolconfigwindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldSkoolCustomizeClientWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskooldomhud.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolgameoptionsclient.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolhud.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolHUDConfig.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoollmsboard.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolmusicclient.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldSkoolMutatorCW.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldskoolMutatorWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldSkoolPagesClientWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldSkoolScoreBoard.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldskoolScrollAbout.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldskoolScrollGOp.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldSkoolScrollKeys.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldskoolScrollMain.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldskoolScrollMusic.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldskoolScrollSP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolspclient.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OldSkoolspectatorhud.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolteamhud.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oldskoolTeamScoreBoard.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olGasBagBelch.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olKraalBolt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olMercRocket.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olpawnshadow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olQueenProjectile.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olSkaarjProjectile.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olSlithProjectile.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olTentacleProjectile.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OlUTBloodPool2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\olWarlordRocket.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OMG.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\oneday.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OrangeBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OrangeLight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OrangeShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OrangeyBall.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\origUnreal.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OSAExtraKeyBindings.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\OSWeaponPowerUp.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PAmmoB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PawnNotify.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PBalloonBomb.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PentagramShot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PentagramShotII.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\peril.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PickParticles.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PickupBase.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PickupBasePower.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PickupCharger.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PID.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Piddledoper.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PiddledoperMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PiddledoperSphere.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PiddledoperSphereMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PiddleImpact.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PiddlePack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PiddleShroomSphere.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PinkBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PinkSaturn.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PinkShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\plasimpact.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\playbutton.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PMContainer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PowerUpsBaseOv.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PP_Fix.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PupaeWarrior.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\PurpleXLight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RainbowShockCore.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RainbowShockRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RBalloonBomb.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\realctfhud.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RedBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RedShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RingTypeA.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RingTypeB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Rocket3.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Rocket3Explosion.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Rocket4.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RocketBioGel.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\rocketGun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\rocketGun2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RocketPackB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RocketShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\RotatingPower.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\scorekeeper.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\SentinelBolt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ServerAds.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShieldBeltSOver.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShieldCoronaV.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\shinigami.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShitballII.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShitballIIMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShitBlob.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShitCanister.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShitCanisterMP.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShitCanisterWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\shitdroplet.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Shitgun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShitJar.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Shitmark.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShitPuff.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShockCoreB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShockHit.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShockHitExtended.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShockOfShockCore.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShockRifle10.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\ShoeFucker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\shrak.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\SinglePlayer2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\skinbotset.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\skinconfiguration.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\skinsetclass.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\sktrooper.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\sktrooperbot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Spec_Handler.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Spec_Mutator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\SpeedFX.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\SpeedFXBlue.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\SpeedFXGreen.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\SpeedFXRed.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\SPFix.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\spoldskool.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\spring.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\staticopers.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\StaticStringFuncs.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\strangeworld.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Sunshine.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\targetmarker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\TestActor.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Textobj.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\TM_Smoke.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Tokkou_Pupae_A_Team.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\transhack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\troopercarcass2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\TurboHelm.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\U1humanbot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBers_ShieldBelt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersArmor.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersDefault.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersDoubleEnforcer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBerseker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersEnforcer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersGuidedWarshell.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersHealthPack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UbersImpactHammer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersInvisibility.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersJumpBoots.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersMinigun2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersOvFx.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersPulseGun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersRipper.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersShockRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersSniperRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersSuperHealth.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersSuperShockRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersThighPads.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersTranslocator.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersUDamage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UbersUT_Biorifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersUT_Eightball.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersUT_FlakCannon.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBersWarheadLauncher.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBrowserModFact.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UBrowserModLink.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UDamageCoronaH.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UDamageCoronaV.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UDamageEffect.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UDamageSOver.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UDamOvFx.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UKBadBoy.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UltimaBoltFlare.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UltimaElectric.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\unrealCreditsCW.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\unrealCreditsWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\unrealfbot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UnrealFemale.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Unrealhuman.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UnrealMale.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\unrealmbot.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\USUAmmoSuperShockRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\USUSuperShockCore.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UT2FlagBaseB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UT2FlagBaseR.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UT99ORG.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\UTJDanceDoll.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\walldodge.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\WarHeadAmmo2.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\WarHeadLauncher3.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\WarMissile.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\VBalloonBomb.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\WDumbMeshes.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\Weapon_Fix.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\WeaponLocker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\WhiteLight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\WLockerBase.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Armor.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_AS_HUD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_BattleSuit.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_BioRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_ChainSaw.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_CTF_HUD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_DM_HUD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_DOM_HUD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_DoubleSpeed.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Enforcer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_FlakCannon.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_FXCorona.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Health.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Helmet.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_ImpactHammer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Invisibility.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_JumpBoots.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_MedPack.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Minigun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_NukeCoronaA.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_NukeCoronaB.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_NukeCoronaC.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_NukeCoronaD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_PowerUps.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Protection.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_PulseGun.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Ripper.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_RocketLauncher.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_ShieldBelt.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_ShockRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_SniperRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_SuperHealth.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_SuperShockRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_TDM_HUD.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_ThighPads.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_UBerseker.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_UDamage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_USUAmmoSuperShockRifle.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_WarHeadLauncher.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_Weapons.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\X_WildCard.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XJumpPad.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XPickupsDialogClientWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XPickupsFramedWindow.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XPickupsMenuPage.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XPickupsModMenuItem.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XPickupsMut.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XReplacer.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XRocketArena.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XShockArena.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\XSniperArena.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\YBalloonBomb.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\YellowBeam.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\YellowLight.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\YellowShockWave.uc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Classes\YellowSpriteBallExplosion.uc">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Classes\AmbientSTrail.uc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
